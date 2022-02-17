@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-## url
+## url to open
 url = 'http://google.com/'
 
 chrome_path = 'open -a /Applications/Google\ Chrome.app %s'
