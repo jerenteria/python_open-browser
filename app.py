@@ -14,4 +14,3 @@ result = requests.get(url)
 ## html.parser gets the actual html info from the page
 doc = BeautifulSoup(result.text, "html.parser")
 
-for search in doc.find_all()
